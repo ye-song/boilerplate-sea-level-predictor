@@ -25,7 +25,7 @@ def draw_plot():
     y1 = []
     for year in x1:
         y1.append(c1 + m1*year)
-    plt.plot(x1, y1, label='Line of best fit 1')
+    plt.plot(x1, y1, 'red', label='Line of best fit 1')
     
 
     # Create second line of best fit
@@ -40,7 +40,7 @@ def draw_plot():
     y2 =[]
     for year in x2:
         y2.append(c2 + m2*year)
-    plt.plot(x2, y2, label='Line of best fit 2')
+    plt.plot(x2, y2, 'orange', label='Line of best fit 2')
     
 
 
